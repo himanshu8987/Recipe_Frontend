@@ -1,0 +1,67 @@
+.cardMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.centre h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+.card {
+  overflow: hidden;
+  width: 315px;
+  height: 540px;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.instructions p {
+  color: rgb(229, 228, 228);
+}
+
+h5 {
+  color: #ebeaea;
+  font-size: 13px;
+  font-weight: 350;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: rgb(71, 57, 52);
+}
+
+.card h2 {
+  margin-bottom: 5px;
+  font-size: 23px;
+  color: #fbfafa;
+}
+
+.card button {
+  background-color: #e5b971;
+  color: rgb(17, 17, 17);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #ffffff;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #fffdfd;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 350;
+  margin-top: 10px;
+}
